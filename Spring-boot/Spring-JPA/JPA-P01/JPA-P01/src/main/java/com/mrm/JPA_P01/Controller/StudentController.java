@@ -27,7 +27,7 @@ public class StudentController {
     }
 
     @PutMapping
-    public Student putStudent(@RequestParam long id, @RequestBody Student student){
+    public Student putStudent(@RequestParam Long id, @RequestBody Student student){
         Student s = studentRepo.findById(id).orElseThrow(()-> new RuntimeException("Student not found"));
         System.out.println(student.getName());
         s.setName(student.getName());
