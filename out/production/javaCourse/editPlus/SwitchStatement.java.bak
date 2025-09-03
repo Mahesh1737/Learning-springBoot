@@ -1,0 +1,28 @@
+import java.util.Scanner;
+import java.io.*;
+
+class SwitchStatement 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter the name(to know the position)=");
+		String name = sc.next();
+		
+		switch(name){
+		    case "mahesh":
+				System.out.println("Chief executive officer");
+			break;
+		    case "Saurabh":
+				System.out.println("Manager");
+			break;
+		    case "Shahu":
+				System.out.println("Driver");
+			break;
+		    case "Amol":
+				System.out.println("Slave");
+			break;
+			default:
+				System.out.println("Error! Employee does not exist in the organization");
+		}
+	}
+}

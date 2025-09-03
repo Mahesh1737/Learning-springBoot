@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BookMyTrain" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Collections" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ExceptionHandling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GarageSystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HttpServletDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/InjectionDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JDBC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Java-8" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MultiThreading" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OOPS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Oops1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ServletLifeCycle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Sorting" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/String" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/myFirstWebApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sessionDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-core-P01" vcs="Git" />
+  </component>
+</project>

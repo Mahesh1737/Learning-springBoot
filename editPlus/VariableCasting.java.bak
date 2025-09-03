@@ -1,0 +1,9 @@
+class VariableCasting 
+{
+	public static void main(String[] args) 
+	{
+		char w = 'a';
+		int num = w;
+		System.out.println("Ascii value of the a:"+num);
+	}
+}
