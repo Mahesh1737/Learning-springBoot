@@ -100,10 +100,45 @@ input::placeholder {
 
 input:focus, select:focus {
     outline: none;
-    background: rgba(255, 255, 255, 0.3);
-    border-color: rgba(255, 255, 255, 0.5);
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Weather-specific focus states */
+.sunny input:focus, .sunny select:focus {
+    background: rgba(255, 215, 0, 0.4);
+    border-color: rgba(255, 215, 0, 0.7);
+    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.3);
+}
+
+.rainy input:focus, .rainy select:focus {
+    background: rgba(74, 144, 226, 0.4);
+    border-color: rgba(74, 144, 226, 0.7);
+    box-shadow: 0 10px 20px rgba(74, 144, 226, 0.3);
+}
+
+.cloudy input:focus, .cloudy select:focus {
+    background: rgba(176, 196, 222, 0.4);
+    border-color: rgba(176, 196, 222, 0.7);
+    box-shadow: 0 10px 20px rgba(176, 196, 222, 0.3);
+}
+
+.snowy input:focus, .snowy select:focus {
+    background: rgba(230, 230, 250, 0.4);
+    border-color: rgba(230, 230, 250, 0.7);
+    box-shadow: 0 10px 20px rgba(230, 230, 250, 0.3);
+}
+
+.stormy input:focus, .stormy select:focus {
+    background: rgba(47, 79, 79, 0.5);
+    border-color: rgba(47, 79, 79, 0.8);
+    box-shadow: 0 10px 20px rgba(47, 79, 79, 0.4);
+}
+
+.default input:focus, .default select:focus {
+    background: rgba(118, 75, 162, 0.4);
+    border-color: rgba(118, 75, 162, 0.7);
+    box-shadow: 0 10px 20px rgba(118, 75, 162, 0.3);
 }
 
 .fetch-btn {
