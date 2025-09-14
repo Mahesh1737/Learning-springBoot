@@ -1,6 +1,5 @@
 package com.mrm.spring_sec_p05_mysql.Entity;
 
-import com.mrm.spring_sec_p05_mysql.Role;
 import jakarta.persistence.*;
 
 import java.util.HashSet;

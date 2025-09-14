@@ -1,4 +1,4 @@
-package com.mrm.spring_sec_p05_mysql;
+package com.mrm.spring_sec_p05_mysql.Entity;
 
 import jakarta.persistence.*;
 
