@@ -22,7 +22,7 @@ public class CustomUserDetailService implements UserDetailsService {
                 .orElseThrow(()->new UsernameNotFoundException("User not found!"+username));
         System.out.println("User Found name :"+user.getUsername()+"/ "+user.getPassword());
         return new User( user.getUsername(), user.getPassword(), user.isEnabled(), true, true, true,
-                user.getRoles().stream().map(role->new SimpleGrantedAuthority(role.getName())).toList()
+                user.getRoles().stream().map(role->new SimpleGrantedAuthority("ROLE_"+role.getName())).toList()
         );
 
     }
