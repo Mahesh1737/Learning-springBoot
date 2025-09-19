@@ -24,7 +24,7 @@ public class Payment {
     private String transactionId;
 
     @Column(nullable = false)
-    private String amount;
+    private Double amount;
 
     @Column(nullable = false)
     private LocalDateTime paymentTime;

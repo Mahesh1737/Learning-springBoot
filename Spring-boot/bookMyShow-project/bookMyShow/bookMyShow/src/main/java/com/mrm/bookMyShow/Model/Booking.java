@@ -27,7 +27,11 @@ public class Booking {
     private LocalDateTime bookingTime;
 
     @ManyToOne
-    @Column(name = "show_id", nullable = false)
+    @JoinColumn(name = "show_id", nullable = false)
+    private Show show;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
     @Column(nullable = false)
