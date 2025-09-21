@@ -10,5 +10,5 @@ import java.util.List;
 public interface ShowSeatRepo extends JpaRepository<ShowSeat, Long>{
     List<ShowSeat> findByShowId(Long showId);
 
-    List<ShowSeat> findByShowIdANDStatus(Long showId, String status);
+    List<ShowSeat> findByShowIdAndStatus(Long showId, String status);
 }

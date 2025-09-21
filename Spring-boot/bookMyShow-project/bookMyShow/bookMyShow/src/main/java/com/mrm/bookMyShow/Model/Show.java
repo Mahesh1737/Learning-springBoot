@@ -32,9 +32,9 @@ public class Show {
     @JoinColumn(name = "movie_id", nullable = false)
     private Movie movie;
 
-    private Theatre theatre;
-
-    private Seat seat;
+//    private Theatre theatre;
+//
+//    private Seat seat;
 
 
     @ManyToOne

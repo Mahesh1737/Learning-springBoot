@@ -31,7 +31,7 @@ public class Movie {
     private String releaseDate;
     private String posterUrl;
 
-    @OneToOne(mappedBy = "movie", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
     private List<Show> shows;
 
 }

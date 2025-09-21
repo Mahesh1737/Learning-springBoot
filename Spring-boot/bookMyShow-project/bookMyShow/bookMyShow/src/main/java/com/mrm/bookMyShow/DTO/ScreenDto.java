@@ -15,4 +15,7 @@ public class ScreenDto {
     private TheatreDto theatre;
     private SeatDto seats;
 
+    public ScreenDto(Long id, String name, Integer totalSeats, TheatreDto theatreDto) {
+    }
+
 }
