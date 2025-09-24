@@ -89,7 +89,7 @@ public class MovieService {
 
     public Movie mapToEntity(MovieDto movieDto){
         Movie movie = new Movie();
-//        movie.setId(movieDto.getId());
+        movie.setId(movieDto.getId());
         movie.setGenre(movieDto.getGenre());
         movie.setDescription(movieDto.getDescription());
         movie.setLanguage(movieDto.getLanguage());
@@ -97,6 +97,7 @@ public class MovieService {
         movie.setDurationMins(movieDto.getDurationMins());
         movie.setPosterUrl(movieDto.getPosterUrl());
         movie.setReleaseDate(movieDto.getReleaseDate());
+//        movie.set(movieDto.getReleaseDate());
         return movie;
     }
 
