@@ -10,7 +10,7 @@ create table customer(
 
 show tables;
 insert into customer(id, cust_name, phone) values(101, 'mahesh', 8329904289);
-insert into customer(cust_name, phone) values('rahul', 8329904289);
+insert into customer(custd_idst_name, phone) values('rahul', 8329904289);
 	select * from customer;
 
 create table vehicle(

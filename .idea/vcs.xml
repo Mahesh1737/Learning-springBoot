@@ -18,6 +18,5 @@
     <mapping directory="$PROJECT_DIR$/String" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/myFirstWebApp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/sessionDemo" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spring-core-P01" vcs="Git" />
   </component>
 </project>
